@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
@@ -303,7 +303,7 @@ namespace SOHDiscordPresence
             }
 
             int maxHearts = healthCap / 16;
-            int curHearts = (int)Math.Ceiling((double)health / 16.0);
+            double curHearts = Math.Ceiling((double)health / 4.0) * 0.25;
             if (maxHearts <= 0 || maxHearts > 30) maxHearts = 3;
             if (curHearts < 0 || curHearts > maxHearts) curHearts = 0;
 
@@ -326,7 +326,7 @@ namespace SOHDiscordPresence
             }
             else
             {
-                heartsText = string.Format("❤️ {0}/{1}", curHearts, maxHearts);
+                heartsText = string.Format("❤️ {0}/{1}", curHearts.ToString("0.##", System.Globalization.CultureInfo.InvariantCulture), maxHearts);
             }
 
             return true;
