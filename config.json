@@ -1,0 +1,12 @@
+﻿{
+  "client_id": "1549071331797114930",
+  "process_name": "soh",
+  "details": "The Legend of Zelda: Ocarina of Time",
+  "state": "Playing Ship of Harkinian",
+  "large_image": "https://i.imgur.com/uSWG02r.png",
+  "large_text": "Ocarina of Time",
+  "small_image": "https://i.imgur.com/Bor9Gtd.png",
+  "small_text": "Made by Imashiro",
+  "hide_console": true,
+  "check_interval_seconds": 3
+}
