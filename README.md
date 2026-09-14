@@ -2,8 +2,6 @@
 
 A lightweight, standalone Discord Rich Presence integration for **Ship of Harkinian** (*The Legend of Zelda: Ocarina of Time* PC Port).
 
-![Ocarina of Time](Zelda%20OOT.png)
-
 ---
 
 ## 🌟 Features
